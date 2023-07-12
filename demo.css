@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lexend+Deca&family=Urbanist&display=swap');
+
+*{
+    font-family: 'Lexend Deca';   
+    scroll-behavior: smooth;
+}
+p{
+    font-family: 'Urbanist';
+}
+
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.section h2.section-head:after{
+    background-color: #6D214F;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin: 20px auto;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+    mix-blend-mode: darken;
+    color: white;
+}
+#header{
+    color: white;
+    background-color:#B33771;
+    
+
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#menu li{
+    display: inline-block;
+    
+}
+#menu li a{
+    padding: 15px 10px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #6D214F;
+}
+#banner{
+    background: url('./img/flow-1.jpg') no-repeat 0 0;
+    background-size: cover;
+    
+}
+.banner-title{
+    padding-top: 5px;
+}
+.banner-title h1{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title>.lead{
+    background-color: rgba(179,55,113, 0.8);
+    padding: 10px;
+}
+.service-box{
+text-align: center;
+}
+.service-box>.fa{
+    color: #6D214F;
+    font-size: 70px;
+    margin-bottom: 15px;
+
+}
+
+#testimonial{
+    background: url('./img/phone-2.jpg') no-repeat 0 0 ;
+    background-size: 100% 100% ;
+    padding: 20px 0;
+    position: relative;
+   color: white;
+   
+}
+
+#testimonial img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+#news img{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+#news h3{
+    font-size: 1.25rem;
+
+}
+#news h3 a{
+    color: #6D214F;
+    text-decoration: none;
+}
+.post-date a{
+    color: #6D214F;
+    text-decoration: none;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+#news a{
+    color: #6D214F;
+    text-decoration: none;
+}
+#footer{
+    color: white;
+    background-color: #6D214F;
+    padding: 10px 0;
+}
+.footer-widget ul{
+    list-style: none;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.footer-widget h4 :after{
+    content: 0;
+    background-color: white;
+    display: block;
+    height: 2px;
+    width: 50px;
+}
+#base-footer{
+    background-color: #B33771;
+    font-size: 1rem;
+    padding: 8px;
+}
+#icons{
+    font-size: 20px;
+    float: right;
+    
+}
+#icons a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+@media (max-width:768px){
+    .testimonial{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+
+    }
+    #base-footer{
+        text-align: center;
+        padding-top: 5px;
+    }
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+
+    }
+    #menu{
+        text-align: center;
+    }
+    
+    .section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+        .banner-title{
+            padding-top: 0rem;
+        }
+        
+}
